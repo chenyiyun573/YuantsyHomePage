@@ -29,8 +29,16 @@ business@yuantsy.com （商务合作）Business Cooperation
 This version of code is stored as 1.0.0, which is just the template.
 
 
+20240824 2025 PT
+Modify the index.html:
+change the title to Yuantsy.
+In the first section: 
+delete avatars, then change the text "simple is ..." to "Yuantsy Desktop Agent"
+Changed the titles and sub text of each sections in the index.html Page. 
+Changed the footer part. 
 
-
+This version of code is stored as 1.0.2
+Consider to transform this into React for better modularity.
 
 
 
