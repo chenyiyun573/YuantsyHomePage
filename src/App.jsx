@@ -1,6 +1,6 @@
 import './App.css'
 import { useEffect } from 'react'
-import Home from './views/Home.jsx'
+import IndexPage from './views/IndexPage.jsx'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Alpine from 'alpinejs';
@@ -88,7 +88,7 @@ function App() {
         });
     }, [])
     return (
-        <Home />
+        <IndexPage />
     )
 }
 

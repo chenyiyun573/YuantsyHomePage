@@ -139,13 +139,13 @@ const SiteFooter = () => {
       </div>
 
       {/* <!-- Big text with enriched visual effects for 'Yuantsy' --> */}
-      <div className="relative w-full h-60 -mt-16" aria-hidden="true">
-        <div className="absolute left-1/2 pointer-events-none -z-10 -translate-x-1/2 text-[348px] leading-none text-center font-bold before:content-['Yuantsy'] before:bg-gradient-to-b before:from-gray-200 before:to-gray-100/30 before:to-80% before:text-transparent before:bg-clip-text after:content-['Yuantsy'] after:absolute after:inset-0 after:bg-gray-300/70 after:text-transparent after:bg-clip-text after:[text-shadow:0_1px_0_white] after:mix-blend-darken"></div>
-        {/* <!-- Glow effect --> */}
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-2/3" aria-hidden="true">
+      {/* <div className="relative w-full h-60 -mt-16" aria-hidden="true"> */}
+      {/* <div className="absolute left-1/2 pointer-events-none -z-10 -translate-x-1/2 text-[348px] leading-none text-center font-bold before:content-['Yuantsy'] before:bg-gradient-to-b before:from-gray-200 before:to-gray-100/30 before:to-80% before:text-transparent before:bg-clip-text after:content-['Yuantsy'] after:absolute after:inset-0 after:bg-gray-300/70 after:text-transparent after:bg-clip-text after:[text-shadow:0_1px_0_white] after:mix-blend-darken"></div> */}
+      {/* <!-- Glow effect --> */}
+      {/* <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-2/3" aria-hidden="true">
           <div className="w-56 h-56 rounded-full border-[20px] border-blue-700 blur-[80px]"></div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
 
     </footer >
   )
