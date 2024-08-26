@@ -1,0 +1,23 @@
+/**
+ * :author: punklee333
+ * :copyright: © 2024 Punk Lee <punklee333@gmail.com>
+ */
+.x-transition-enter {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+
+.x-transition-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms ease-out, transform 300ms ease-out;
+}
+
+.x-transition-exit {
+  opacity: 1;
+}
+
+.x-transition-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-out;
+}
