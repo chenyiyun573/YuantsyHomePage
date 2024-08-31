@@ -1,9 +1,15 @@
 import './App.css'
 import { useEffect } from 'react'
-import IndexPage from './views/IndexPage.jsx'
+import { useRoutes, BrowserRouter as Router } from 'react-router-dom';
+import routes from './router';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Alpine from 'alpinejs';
+
+function AppRoutes() {
+    const element = useRoutes(routes);
+    return element;
+}
 
 function App() {
     useEffect(() => {
@@ -88,7 +94,9 @@ function App() {
         });
     }, [])
     return (
-        <IndexPage />
+        <Router>
+            <AppRoutes />
+        </Router>
     )
 }
 
