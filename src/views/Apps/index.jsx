@@ -1,4 +1,4 @@
-export function Apps() {
+export default function Apps() {
   return (
     <>
       {/* <!-- Hero --> */}

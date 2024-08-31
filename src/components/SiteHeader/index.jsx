@@ -11,10 +11,10 @@ const SiteHeader = () => {
       }
     };
 
-    window.addEventListener("click", handleClick);
+    document.addEventListener("click", handleClick);
 
     return () => {
-      window.removeEventListener("click", handleClick);
+      document.removeEventListener("click", handleClick);
     };
   }, [navigate]);
   return (
