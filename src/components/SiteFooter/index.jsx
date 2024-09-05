@@ -38,7 +38,7 @@ const SiteFooter = () => {
             <h3 className="text-sm font-medium">Product 业务</h3>
             <ul className="text-sm space-y-2">
               <li>
-                <a className="text-gray-600 hover:text-gray-900 transition" href="#0">Agent 智能体</a>
+                <a className="text-gray-600 hover:text-gray-900 transition" href="https://yuantsy.com">Agent 智能体</a>
               </li>
               <li>
                 <a className="text-gray-600 hover:text-gray-900 transition" href="https://tree.yuantsy.com">Knowledge Tree 知识树</a>
@@ -50,7 +50,7 @@ const SiteFooter = () => {
                 <a className="text-gray-600 hover:text-gray-900 transition" href="https://search.yuantsy.com">RAG Search Service <br></br>增强生成搜索</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-900 transition" href="#0">Neural Engine Chip <br></br>神经引擎芯片</a>
+                <a className="text-gray-600 hover:text-gray-900 transition" href="http://chip.yuantsy.com">Neural Engine Chip <br></br>神经引擎芯片</a>
               </li>
             </ul>
           </div>
@@ -63,7 +63,7 @@ const SiteFooter = () => {
                 <a className="text-gray-600 hover:text-gray-900 transition" href="http://wiki.yuantsy.com">About Us 关于我们</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-900 transition" href="mailto:hr@yuantsy.com">Hiring Related 加入我们</a>
+                <a className="text-gray-600 hover:text-gray-900 transition" href="mailto:hr@yuantsy.com">Join US 加入我们</a>
               </li>
               <li>
                 <a className="text-gray-600 hover:text-gray-900 transition" href="https://yuantsy.com/investment/">Investor 投资者</a>

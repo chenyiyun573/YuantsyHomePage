@@ -1,4 +1,4 @@
-export default function CTA() {
+export default function Career() {
   return (
     <>
       {/* <!-- CTA --> */}

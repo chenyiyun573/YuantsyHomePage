@@ -144,22 +144,19 @@ const SiteHeader = () => {
                 >
                     <ul class="text-sm p-2">
                         <li>
-                            <a class="flex text-gray-700 hover:bg-gray-100 rounded-lg py-1.5 px-2 internal-link" href="/pricing">Pricing</a>
+                            <a class="flex text-gray-700 hover:bg-gray-100 rounded-lg py-1.5 px-2 internal-link" href="https://yuantsy.com">Agent 智能体</a>
                         </li>
                         <li>
-                            <a class="flex text-gray-700 hover:bg-gray-100 rounded-lg py-1.5 px-2 internal-link" href="/customers">Customers</a>
+                            <a class="flex text-gray-700 hover:bg-gray-100 rounded-lg py-1.5 px-2 internal-link" href="https://tree.yuantsy.com">KnowledgeTree 知识树</a>
                         </li>
                         <li>
-                            <a class="flex text-gray-700 hover:bg-gray-100 rounded-lg py-1.5 px-2 internal-link" href="/blog">Blog</a>
+                            <a class="flex text-gray-700 hover:bg-gray-100 rounded-lg py-1.5 px-2 internal-link" href="https://service.yuantsy.com">Model 模型</a>
                         </li>
                         <li>
-                            <a class="flex text-gray-700 hover:bg-gray-100 rounded-lg py-1.5 px-2 internal-link" href="/documentation">Docs</a>
+                            <a class="flex text-gray-700 hover:bg-gray-100 rounded-lg py-1.5 px-2 internal-link" href="https://search.yuantsy.com">Search 搜索</a>
                         </li>
                         <li>
-                            <a class="flex text-gray-700 hover:bg-gray-100 rounded-lg py-1.5 px-2 internal-link" href="/support">Support center</a>
-                        </li>
-                        <li>
-                            <a class="flex text-gray-700 hover:bg-gray-100 rounded-lg py-1.5 px-2 internal-link" href="/apps">Apps</a>
+                            <a class="flex text-gray-700 hover:bg-gray-100 rounded-lg py-1.5 px-2 internal-link" href="http://wiki.yuantsy.com">Wiki 关于</a>
                         </li>
                     </ul>
                 </nav>

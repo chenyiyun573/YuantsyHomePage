@@ -1,4 +1,4 @@
-const Hero = () => {
+const Agent = () => {
   return (
     <>
       {/* <!-- Hero --> */}
@@ -60,4 +60,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Agent

@@ -1,7 +1,7 @@
-export default function Testimonials() {
+export default function Chip() {
   return (
     <>
-      {/* <!-- Testimonials --> */}
+      {/* <!-- Chip --> */}
       <section className="relative before:absolute before:inset-0 before:h-[120%] before:pointer-events-none before:bg-gradient-to-b before:from-gray-100 before:-z-10">
         <div className="pt-12 md:pt-20">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">

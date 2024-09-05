@@ -1,4 +1,4 @@
-export default function Features2() {
+export default function Search() {
   return (
     <>
       {/* <!-- Features #2 --> */}
