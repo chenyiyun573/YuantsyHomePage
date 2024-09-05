@@ -12,23 +12,7 @@ export default function Features() {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-200">AI models, all in one - Yuantsy Service Platform </h2>
             </div>
 
-            {/* <!-- Planet --> */}
-            <div className="pb-16 md:pb-20" data-aos="zoom-y-out">
-              <div className="text-center">
-                <div className="inline-flex relative rounded-full before:absolute before:inset-0 before:-z-10 before:scale-[.85] before:bg-gradient-to-b before:from-blue-900 before:to-sky-700/50 before:blur-3xl before:animate-[pulse_4s_cubic-bezier(.4,0,.6,1)_infinite] after:absolute after:inset-0 after:rounded-[inherit] after:[background:radial-gradient(closest-side,theme(colors.blue.500),transparent)]">
-                  <img className="bg-gray-900 rounded-full" src="./images/planet.png" width="400" height="400" alt="Planet" />
-                  <div className="pointer-events-none" aria-hidden="true">
-                    <img className="absolute z-10 -top-20 -right-64 max-w-none" src="./images/planet-overlay.svg" width="789" height="755" alt="Planet decoration" />
-                    <div>
-                      <img className="absolute z-10 top-16 -left-28 opacity-80 transition-opacity duration-500 animate-[float_4s_ease-in-out_infinite_both]" src="./images/planet-tag-01.png" width="253" height="56" alt="Tag 01" />
-                      <img className="absolute z-10 top-7 left-56 opacity-30 transition-opacity duration-500 animate-[float_4s_ease-in-out_infinite_1s_both]" src="./images/planet-tag-02.png" width="241" height="56" alt="Tag 02" />
-                      <img className="absolute z-10 bottom-24 -left-20 opacity-25 transition-opacity duration-500 animate-[float_4s_ease-in-out_infinite_2s_both]" src="./images/planet-tag-03.png" width="243" height="56" alt="Tag 03" />
-                      <img className="absolute z-10 bottom-32 left-64 opacity-80 transition-opacity duration-500 animate-[float_4s_ease-in-out_infinite_3s_both]" src="./images/planet-tag-04.png" width="251" height="56" alt="Tag 04" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
 
             {/* <!-- Grid --> */}
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 overflow-hidden [&>*]:p-6 md:[&>*]:p-10 [&>*]:relative [&>*]:before:absolute [&>*]:before:bg-gray-800 [&>*]:before:[block-size:100vh] [&>*]:before:[inline-size:1px] [&>*]:before:[inset-inline-start:-1px] [&>*]:before:[inset-block-start:0] [&>*]:after:absolute [&>*]:after:bg-gray-800 [&>*]:after:[block-size:1px] [&>*]:after:[inline-size:100vw] [&>*]:after:[inset-inline-start:0] [&>*]:after:[inset-block-start:-1px]">

@@ -10,7 +10,14 @@ I plan to change them to Agent, KnowledgeTree, Wiki, with defined, fixed URL of 
 
 And for the footer, I need to use the code by Li Hang at branch react-ts-1.0.0.
 
+
+20240905 0023 PT
 Deleted irrelevant htmls. 
+Deleted irrelevant pages in jsx.
+
+This version of code is stored as 1.1.1.
+
+
 
 
 

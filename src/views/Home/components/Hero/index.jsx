@@ -50,20 +50,7 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* <!-- Hero image --> */}
-            <div className="max-w-3xl mx-auto" data-aos="zoom-y-out" data-aos-delay="600">
-              <div className="relative aspect-video bg-gray-900 rounded-2xl px-5 py-3 shadow-xl before:absolute before:-inset-5 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] before:pointer-events-none after:absolute after:-inset-5 after:border-x after:[border-image:linear-gradient(to_bottom,transparent,theme(colors.slate.300/.8),transparent)1] after:-z-10">
-                <div className="relative flex items-center justify-between before:block before:w-[41px] before:h-[9px] before:[background-image:radial-gradient(circle_at_4.5px_4.5px,_theme(colors.gray.600)_4.5px,_transparent_0)] before:bg-[length:16px_9px] after:w-[41px] mb-8">
-                  <span className="text-white font-medium text-[13px]">cruip.com</span>
-                </div>
-                <div className="text-gray-500 font-mono [&_span]:opacity-0">
-                  <span className="text-gray-200 animate-[code-1_10s_infinite]">npm login</span> <span className="animate-[code-2_10s_infinite]">--registry=https://npm.pkg.github.com</span><br />
-                  <span className="animate-[code-3_10s_infinite]">--scope=@phanatic</span> <span className="animate-[code-4_10s_infinite]">Successfully logged-in.</span><br /><br />
-                  <span className="text-gray-200 animate-[code-5_10s_infinite]">npm publish</span><br />
-                  <span className="animate-[code-6_10s_infinite]">Package published.</span>
-                </div>
-              </div>
-            </div>
+            
 
           </div>
 
