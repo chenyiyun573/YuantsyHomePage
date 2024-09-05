@@ -16,7 +16,7 @@ export default function CTA() {
             <div className="py-12 md:py-20 px-4 md:px-12">
               <h2 className="text-3xl md:text-4xl text-gray-200 font-bold mb-6 md:mb-12 border-y [border-image:linear-gradient(to_right,transparent,theme(colors.slate.700/.7),transparent)1]">Join Yuantsy, Lead the Future</h2>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-                <a className="btn text-white bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] hover:bg-[length:100%_150%] bg-[bottom] shadow w-full mb-4 sm:w-auto sm:mb-0 group" href="#0">
+                <a className="btn text-white bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] hover:bg-[length:100%_150%] bg-[bottom] shadow w-full mb-4 sm:w-auto sm:mb-0 group" href="https://yuantsy.com/talents">
                   <span className="relative inline-flex items-center">
                     Yuantsy Careers <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform ml-1">-&gt;</span>
                   </span>

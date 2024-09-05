@@ -4,7 +4,13 @@ The page has been splited very well.
 I will save this version of code as branch 1.1.0. Then start to modify the content on my side. 
 
 
+Currently, I want to use the Home Page only. Maybe I will add other pages in the future. 
+For the existing Pricing, Customer, Blog, Docs, Extra button on the header of each page. 
+I plan to change them to Agent, KnowledgeTree, Wiki, with defined, fixed URL of other sites. 
 
+And for the footer, I need to use the code by Li Hang at branch react-ts-1.0.0.
+
+Deleted irrelevant htmls. 
 
 
 

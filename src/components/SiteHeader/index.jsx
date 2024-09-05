@@ -50,83 +50,44 @@ const SiteHeader = () => {
               <li className="px-3 py-1">
                 <Link
                   className="text-gray-700 hover:text-gray-900 flex items-center transition"
-                  to="/pricing"
+                  to="https://yuantsy.com"
                 >
-                  Pricing
+                  Agent 智能体
                 </Link>
               </li>
               <li className="px-3 py-1">
                 <Link
                   className="text-gray-700 hover:text-gray-900 flex items-center transition"
-                  to="/customers"
+                  to="https://tree.yuantsy.com"
                 >
-                  Customers
+                  KnowledgeTree 知识树
                 </Link>
               </li>
               <li className="px-3 py-1">
                 <Link
                   className="text-gray-700 hover:text-gray-900 flex items-center transition"
-                  to="/blog"
+                  to="https://service.yuantsy.com"
                 >
-                  Blog
+                  Model 模型
                 </Link>
               </li>
               <li className="px-3 py-1">
                 <Link
                   className="text-gray-700 hover:text-gray-900 flex items-center transition"
-                  to="/documentation"
+                  to="https://search.yuantsy.com"
                 >
-                  Docs
+                  Search 搜索
                 </Link>
               </li>
-              {/* <!-- 1st level: hover --> */}
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: `
-                <li
-                    class="relative flex items-center gap-0.5 px-3 py-1"
-                    x-data="{ open: false }"
-                    @mouseenter="open = true"
-                    @mouseleave="open = false"
+              <li className="px-3 py-1">
+                <Link
+                  className="text-gray-700 hover:text-gray-900 flex items-center transition"
+                  to="http://wiki.yuantsy.com"
                 >
-                    <span
-                        class="text-gray-700 hover:text-gray-900 flex items-center cursor-pointer transition"
-                        aria-haspopup="true"
-                        :aria-expanded="open"
-                    >Extra</span>
-                    <button
-                        class="shrink-0 p-1"
-                        :aria-expanded="open"
-                        @click.prevent="open = !open"
-                    >
-                        <span class="sr-only">Show submenu for "Extra"</span>
-                        <svg class="fill-gray-400" xmlns="http://www.w3.org/2000/svg" width="10" height="6">
-                            <path d="m1.06.19 3.5 3.5 3.5-3.5 1.061 1.06-4.56 4.56L0 1.25 1.06.19Z" />
-                        </svg>
-                    </button>
-                    <ul
-                        class="origin-top-left absolute top-full left-0 w-36 bg-white p-2 rounded-xl shadow-lg shadow-black/[0.03] border border-gray-100"
-                        x-show="open"
-                        x-transition:enter="transition ease-out transform"
-                        x-transition:enter-start="opacity-0 -translate-y-2"
-                        x-transition:enter-end="opacity-100 scale-100"
-                        x-transition:leave="transition ease-out"
-                        x-transition:leave-start="opacity-100"
-                        x-transition:leave-end="opacity-0"
-                        x-cloak
-                        @focusout="await $nextTick();!$el.contains($focus.focused()) && (open = false)"
-                    >
-                        <li>
-                            <a class="text-sm text-gray-700 hover:bg-gray-100 flex py-1.5 px-2 rounded-lg internal-link" href="/support">Support center</a>
-                        </li>
-                        <li>
-                            <a class="text-sm text-gray-700 hover:bg-gray-100 flex py-1.5 px-2 rounded-lg internal-link" href="/apps">Apps</a>
-                        </li>
-                    </ul>
-                </li>
-                  `,
-                }}
-              ></div>
+                  Wiki 关于
+                </Link>
+              </li>
+              
             </ul>
           </nav>
 
@@ -137,7 +98,7 @@ const SiteHeader = () => {
                 className="btn-sm text-gray-800 bg-white hover:bg-gray-50 shadow"
                 to="/signin"
               >
-                Login
+                Login 登陆
               </Link>
             </li>
             <li>
@@ -145,7 +106,7 @@ const SiteHeader = () => {
                 className="btn-sm text-gray-200 bg-gray-800 hover:bg-gray-900 shadow"
                 to="/signup"
               >
-                Register
+                Register 注册
               </Link>
             </li>
           </ul>
