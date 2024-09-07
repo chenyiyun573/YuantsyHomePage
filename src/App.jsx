@@ -17,7 +17,7 @@ function App() {
         Alpine.start();
         AOS.init({
             once: true,
-            disable: 'phone',
+            //disable: 'phone',
             duration: 700,
             easing: 'ease-out-cubic',
         });

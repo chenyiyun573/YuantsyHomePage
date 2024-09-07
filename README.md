@@ -26,6 +26,25 @@ Before make any changes to solve the phone rendering problem. Let me push this v
 This version of code is stored as 1.1.2
 
 
+### 20240907 1539 PT
+I modified a lot of code in related sections, but it seems it was solved by deleting the 
+```
+AOS.init
+    once: true,
+    //disable: 'phone',
+```
+in App.jsx. 
+This version of code is stored as 1.1.2
+
+
+
+
+
+
+
+
+
+
 ### 20240905 2031 PT
 
 
