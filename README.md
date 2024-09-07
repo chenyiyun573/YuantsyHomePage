@@ -34,7 +34,7 @@ AOS.init
     //disable: 'phone',
 ```
 in App.jsx. 
-This version of code is stored as 1.1.2
+This version of code is stored as 1.1.3
 
 
 
