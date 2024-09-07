@@ -1,3 +1,5 @@
+import BoxButton from "./boxbutton";
+
 export default function Models() {
   return (
     <>
@@ -10,9 +12,10 @@ export default function Models() {
             <div className="max-w-3xl mx-auto text-center pb-16 md:pb-20">
 
               <h2 className="text-3xl md:text-4xl font-bold text-gray-200">AI models, all in one - Yuantsy Service Platform </h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-200">AI模型，尽在 - 源子推理服务平台 </h2>
             </div>
 
-            
+            <BoxButton />
 
             {/* <!-- Grid --> */}
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 overflow-hidden [&>*]:p-6 md:[&>*]:p-10 [&>*]:relative [&>*]:before:absolute [&>*]:before:bg-gray-800 [&>*]:before:[block-size:100vh] [&>*]:before:[inline-size:1px] [&>*]:before:[inset-inline-start:-1px] [&>*]:before:[inset-block-start:0] [&>*]:after:absolute [&>*]:after:bg-gray-800 [&>*]:after:[block-size:1px] [&>*]:after:[inline-size:100vw] [&>*]:after:[inset-inline-start:0] [&>*]:after:[inset-block-start:-1px]">
@@ -23,7 +26,7 @@ export default function Models() {
                   </svg>
                   <span>Diversity 多样</span>
                 </h3>
-                <p className="text-[15px] text-gray-400">Access a wide range of AI models from various companies and open-source communities.</p>
+                <p className="text-[15px] text-gray-400">Access a wide range of AI models from various companies and open-source communities. <br></br>访问各大模型企业和开源社区多种AI模型。</p>
               </article>
               <article>
                 <h3 className="font-medium text-gray-200 flex items-center space-x-2 mb-2">
@@ -32,7 +35,7 @@ export default function Models() {
                   </svg>
                   <span>Flexibility 便利</span>
                 </h3>
-                <p className="text-[15px] text-gray-400">Pay only for what you use—no monthly subscriptions, just per-call pricing.</p>
+                <p className="text-[15px] text-gray-400">Pay only for what you use—no monthly subscriptions, just per-call pricing. <br></br>按使用量付费，无月度订阅，仅按每次调用收费。</p>
               </article>
               <article>
                 <h3 className="font-medium text-gray-200 flex items-center space-x-2 mb-2">
@@ -42,7 +45,7 @@ export default function Models() {
                   </svg>
                   <span>Integration 完整</span>
                 </h3>
-                <p className="text-[15px] text-gray-400">Seamlessly connect with multiple AI models through one unified platform.</p>
+                <p className="text-[15px] text-gray-400">Seamlessly connect with multiple AI models through one unified platform. <br></br>通过一个统一的平台连接多个AI模型。</p>
               </article>
               <article>
                 <h3 className="font-medium text-gray-200 flex items-center space-x-2 mb-2">
@@ -51,7 +54,7 @@ export default function Models() {
                   </svg>
                   <span>Scalability 扩展</span>
                 </h3>
-                <p className="text-[15px] text-gray-400">Easily scale your AI needs with usage-based pricing tailored to your business.</p>
+                <p className="text-[15px] text-gray-400">Easily scale your AI needs with usage-based pricing tailored to your business. <br></br>根据使用量和业务需求轻松扩展AI能力。</p>
               </article>
               <article>
                 <h3 className="font-medium text-gray-200 flex items-center space-x-2 mb-2">
@@ -60,7 +63,7 @@ export default function Models() {
                   </svg>
                   <span>Innovation 最新</span>
                 </h3>
-                <p className="text-[15px] text-gray-400">Leverage the latest advancements in AI technology, from text to multimodal models.</p>
+                <p className="text-[15px] text-gray-400">Leverage the latest advancements in AI technology, from text to multimodal models. <br></br>利用AI技术的最新进展，从文本到多模态模型。</p>
               </article>
               <article>
                 <h3 className="font-medium text-gray-200 flex items-center space-x-2 mb-2">
@@ -69,9 +72,10 @@ export default function Models() {
                   </svg>
                   <span>Efficiency 效率</span>
                 </h3>
-                <p className="text-[15px] text-gray-400">Simplify your AI workflow by managing all models in one place, saving time and resources.</p>
+                <p className="text-[15px] text-gray-400">Simplify your AI workflow by managing all models in one place, saving time and resources. <br></br>通过在一个平台上管理所有模型，简化AI工作流程，节省时间和资源。</p>
               </article>
             </div>
+
 
           </div>
         </div>

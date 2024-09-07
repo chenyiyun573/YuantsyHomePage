@@ -1,3 +1,5 @@
+import SvgComponent from "./chip_svg";
+
 export default function Chip() {
   return (
     <>
@@ -58,6 +60,8 @@ export default function Chip() {
                 {/* More blank lines as needed */}
               </div>
             </div>
+
+            
 
           </div>
         </div>

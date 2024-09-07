@@ -1,3 +1,8 @@
+import Title_EN from "./title_en"
+import Title_CN from "./title_cn"
+import AppButtons_EN from "./button_en"
+import AppButtons_CN from "./button_cn"
+
 const Agent = () => {
   return (
     <>
@@ -27,28 +32,26 @@ const Agent = () => {
 
             {/* <!-- Section header --> */}
             <div className="text-center pb-12 md:pb-16">
-              <div className="mb-6 border-y [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]" data-aos="zoom-y-out">
-              </div>
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 border-y [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]" data-aos="zoom-y-out" data-aos-delay="150">Let AI handle the repetitive, free you<br className="max-lg:hidden" />with Yuantsy Desktop Agent</h1>
-              <div className="max-w-3xl mx-auto">
-                <p className="text-lg text-gray-700 mb-8" data-aos="zoom-y-out" data-aos-delay="300">Yuantsy Desktop Agent is an AI powered remote control software that can help you to do anything you can do with a computer.</p>
-                <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
-                  <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="450">
-                    <a className="btn text-white bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] hover:bg-[length:100%_150%] bg-[bottom] shadow w-full mb-4 sm:w-auto sm:mb-0 group" href="#0">
-                      <span className="relative inline-flex items-center">
-                        MacOS App <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform ml-1">-&gt;</span>
-                      </span>
-                    </a>
-                    <a className="btn text-white bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] hover:bg-[length:100%_150%] bg-[bottom] shadow w-full mb-4 sm:w-auto sm:mb-0 group" href="#0">
-                      <span className="relative inline-flex items-center">
-                        Windows App <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform ml-1">-&gt;</span>
-                      </span>
-                    </a>
-                    <a className="btn text-gray-800 bg-white hover:bg-gray-50 shadow w-full sm:w-auto sm:ml-4" href="#0">Learn More</a>
-                  </div>
-                </div>
-              </div>
+              <div
+                className="mb-6 border-y"
+                style={{
+                  borderImage: 'linear-gradient(to right, transparent, rgba(107, 114, 128, 0.8), transparent) 1',
+                }}
+                data-aos="zoom-y-out"
+              ></div>
+
+              {/* English Version */}
+              <Title_EN />
+              <AppButtons_EN />
+
+              {/* Space Between EN and CN Versions */}
+              <div style={{ marginBottom: '16rem' }}></div> {/* Adjust this value as needed for spacing */}
+
+              {/* Chinese Version */}
+              <Title_CN />
+              <AppButtons_CN />
             </div>
+
 
             
 
