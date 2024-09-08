@@ -26,6 +26,16 @@ Before make any changes to solve the phone rendering problem. Let me push this v
 This version of code is stored as 1.1.2
 
 
+### 20240907 1548 PT
+I tried solely delete the phone disable ASO in App.jsx.
+It works. This version of code is stored as 1.2.0
+
+
+
+
+
+
+
 ### 20240905 2031 PT
 
 
