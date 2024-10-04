@@ -1,13 +1,22 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+
 const SiteHeader = () => {
   const navigate = useNavigate();
+
   useEffect(() => {
     const handleClick = (event) => {
       if (event.target && event.target.matches("a.internal-link")) {
-        event.preventDefault(); // 防止浏览器默认行为
+        event.preventDefault(); // Prevent default behavior
         const href = event.target.getAttribute("href");
-        navigate(href); // 使用 React Router 的 navigate
+
+        if (href.startsWith("http://") || href.startsWith("https://")) {
+          // Use window.location for external links
+          window.location.href = href;
+        } else {
+          // Use navigate for internal links
+          navigate(href);
+        }
       }
     };
 
@@ -17,6 +26,7 @@ const SiteHeader = () => {
       document.removeEventListener("click", handleClick);
     };
   }, [navigate]);
+
   return (
     //  <!-- Site header -->
     <header className="fixed top-2 md:top-6 w-full z-30">
@@ -25,19 +35,19 @@ const SiteHeader = () => {
           {/* <!-- Site branding --> */}
           <div className="flex-1 flex items-center">
             {/* <!-- Logo --> */}
-            <Link class="inline-flex" to="/home" aria-label="Cruip">
+            <Link className="inline-flex" to="/" aria-label="Cruip">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28">
                 <path
-                  class="fill-blue-500"
-                  fill-rule="evenodd"
+                  className="fill-blue-500"
+                  fillRule="evenodd"
                   d="M15.052 0c6.914.513 12.434 6.033 12.947 12.947h-5.015a7.932 7.932 0 0 1-7.932-7.932V0Zm-2.105 22.985V28C6.033 27.487.513 21.967 0 15.053h5.015a7.932 7.932 0 0 1 7.932 7.932Z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
                 <path
-                  class="fill-blue-300"
-                  fill-rule="evenodd"
+                  className="fill-blue-300"
+                  fillRule="evenodd"
                   d="M0 12.947C.513 6.033 6.033.513 12.947 0v5.015a7.932 7.932 0 0 1-7.932 7.932H0Zm22.984 2.106h5.015C27.486 21.967 21.966 27.487 15.052 28v-5.015a7.932 7.932 0 0 1 7.932-7.932Z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
             </Link>
@@ -48,46 +58,45 @@ const SiteHeader = () => {
             {/* <!-- Desktop menu links --> */}
             <ul className="text-sm flex grow justify-center flex-wrap items-center gap-4 lg:gap-8">
               <li className="px-3 py-1">
-                <Link
-                  className="text-gray-700 hover:text-gray-900 flex items-center transition"
-                  to="https://yuantsy.com"
+                <a
+                  className="text-gray-700 hover:text-gray-900 flex items-center transition internal-link"
+                  href="https://yuantsy.com"
                 >
                   Agent 智能体
-                </Link>
+                </a>
               </li>
               <li className="px-3 py-1">
-                <Link
-                  className="text-gray-700 hover:text-gray-900 flex items-center transition"
-                  to="https://tree.yuantsy.com"
+                <a
+                  className="text-gray-700 hover:text-gray-900 flex items-center transition internal-link"
+                  href="https://tree.yuantsy.com"
                 >
                   KnowledgeTree 知识树
-                </Link>
+                </a>
               </li>
               <li className="px-3 py-1">
-                <Link
-                  className="text-gray-700 hover:text-gray-900 flex items-center transition"
-                  to="https://service.yuantsy.com"
+                <a
+                  className="text-gray-700 hover:text-gray-900 flex items-center transition internal-link"
+                  href="https://service.yuantsy.com"
                 >
                   Model 模型
-                </Link>
+                </a>
               </li>
               <li className="px-3 py-1">
-                <Link
-                  className="text-gray-700 hover:text-gray-900 flex items-center transition"
-                  to="https://search.yuantsy.com"
+                <a
+                  className="text-gray-700 hover:text-gray-900 flex items-center transition internal-link"
+                  href="https://search.yuantsy.com"
                 >
                   Search 搜索
-                </Link>
+                </a>
               </li>
               <li className="px-3 py-1">
-                <Link
-                  className="text-gray-700 hover:text-gray-900 flex items-center transition"
-                  to="http://wiki.yuantsy.com"
+                <a
+                  className="text-gray-700 hover:text-gray-900 flex items-center transition internal-link"
+                  href="http://wiki.yuantsy.com"
                 >
                   Wiki 关于
-                </Link>
+                </a>
               </li>
-              
             </ul>
           </nav>
 

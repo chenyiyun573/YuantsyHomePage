@@ -21,7 +21,7 @@ const Title_EN = () => {
           color: '#6b7280', // Slate-500 equivalent color in Tailwind
         }}
       >
-        Let AI handle the repetitive, free you
+        Let AI handle the repetitive, free you{' '}
       </span>
       <br className="max-lg:hidden" />
       <span

@@ -12,7 +12,7 @@ export default function Signin() {
               {/* <!-- Site branding --> */}
               <div className="shrink-0 mr-4">
                 {/* <!-- Logo --> */}
-                <Link className="inline-flex" to="/home" aria-label="Cruip">
+                <Link className="inline-flex" to="/" aria-label="Cruip">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="28"

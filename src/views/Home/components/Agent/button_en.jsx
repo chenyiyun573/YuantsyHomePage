@@ -38,7 +38,7 @@ const AppButtons_EN = () => {
         >
           {/** MacOS App Button */}
           <a
-            href="https://tree.yuantsy.com/todo.html"
+            href="/download"
             style={{
               display: 'flex',
               alignItems: 'center',
@@ -59,7 +59,7 @@ const AppButtons_EN = () => {
 
           {/** Windows App Button */}
           <a
-            href="https://tree.yuantsy.com/todo.html"
+            href="/download"
             style={{
               display: 'flex',
               alignItems: 'center',
@@ -81,7 +81,7 @@ const AppButtons_EN = () => {
 
           {/** Learn More Button */}
           <a
-            href="https://tree.yuantsy.com/todo.html"
+            href="/download"
             style={{
               display: 'flex',
               alignItems: 'center',
