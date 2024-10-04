@@ -1,8 +1,7 @@
 import { Navigate } from "react-router-dom";
 import Layout from "../components/Layout";
 import Home from "../views/Home";
-
-import Download from "../views/Download"
+import Download from "../views/Download";
 import Signup from "../views/Signup";
 import Signin from "../views/Signin";
 import ResetPassword from "../views/ResetPassword";
@@ -14,7 +13,11 @@ const routes = [
     children: [
       {
         path: "/",
-        element: <Home />, // Set the Home component for the root path
+        element: <Home />,
+      },
+      {
+        path: "download",
+        element: <Download />,
       },
     ],
   },
@@ -31,14 +34,22 @@ const routes = [
     element: <ResetPassword />,
   },
   {
-    path: "/download",
-    element: <Layout />,
-    children: [
-      {
-        path: "/download",
-        element: <Download />, // Set the Home component for the root path
-      },
-    ],
+    path: "/investment",
+    element: () => {
+      window.location.href = "/investment/index.html";
+      return null;
+    },
+  },
+  {
+    path: "/career",
+    element: () => {
+      window.location.href = "/career/index.html";
+      return null;
+    },
+  },
+  {
+    path: "*",
+    element: <Navigate to="/" />,
   },
 ];
 

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuantsy Career</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0056b3;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .job-description {
+            margin-bottom: 20px;
+            display: none;
+        }
+        .toggle {
+            cursor: pointer;
+            color: #0056b3;
+            font-weight: bold;
+        }
+        .apply-instructions, .compensation {
+            background-color: #e7f1ff;
+            padding: 10px;
+            border-left: 5px solid #0056b3;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.8em;
+            background-color: #0056b3;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Join Our Team at Yuantsy / 加入 Yuantsy 团队</h1>
+        <p>Explore the opportunities to advance your career with Yuantsy. We are looking for passionate individuals to fill several roles in our dynamic team. Positions are available in Beijing, Chizhou, Los Angeles, San Francisco, or online. / 探索与 Yuantsy 一起提升职业生涯的机会。我们正在寻找热情的人才来填补我们团队中的几个职位。职位在北京、池州、洛杉矶、旧金山或在线可用。</p>
+        
+        <!-- Job 1 -->
+        <h2 class="toggle">macOS App Developer / macOS 应用开发者</h2>
+        <div class="job-description">
+            <p>Develop cutting-edge applications on macOS platforms. Strong understanding of Swift, Cocoa, and the macOS ecosystem required. / 在 macOS 平台上开发尖端应用程序。需要对 Swift、Cocoa 和 macOS 生态系统有深入了解。</p>
+        </div>
+
+        <!-- Job 2 -->
+        <h2 class="toggle">Windows App Developer / Windows 应用开发者</h2>
+        <div class="job-description">
+            <p>Create sophisticated Windows applications. Proficiency in C#, .NET, and Windows APIs is essential. / 创建复杂的 Windows 应用程序。精通 C#、.NET 和 Windows API 是必须的。</p>
+        </div>
+
+        <!-- Job 3 -->
+        <h2 class="toggle">Computer Vision Engineer (UI Focus) / 计算机视觉工程师（UI 重点）</h2>
+        <div class="job-description">
+            <p>Work on advanced computer vision algorithms focused on user interfaces. Experience with OpenCV and image processing needed. / 致力于专注于用户界面的先进计算机视觉算法。需要具备 OpenCV 和图像处理的经验。</p>
+        </div>
+
+        <!-- Job 4 -->
+        <h2 class="toggle">Agentic AI Architecture Engineer / 代理人 AI 架构工程师</h2>
+        <div class="job-description">
+            <p>Design AI systems for autonomous operation within software environments. Deep knowledge of AI architectures and machine learning required. / 设计用于软件环境中自主操作的 AI 系统。需要深入了解 AI 架构和机器学习。</p>
+        </div>
+
+        <!-- Job 5 -->
+        <h2 class="toggle">Backend Service Engineer / 后端服务工程师</h2>
+        <div class="job-description">
+            <p>Develop robust server-side logic for our applications. Proficiency in backend programming languages and database technologies is crucial. / 为我们的应用程序开发强大的服务器端逻辑。精通后端编程语言和数据库技术至关重要。</p>
+        </div>
+
+        <!-- Job 6 -->
+        <h2 class="toggle">RL and ML Engineer / 强化学习和机器学习工程师</h2>
+        <div class="job-description">
+            <p>Implement ML and RL models to enhance application performance. Extensive experience with TensorFlow or PyTorch required. / 实施 ML 和 RL 模型以提高应用性能。需要丰富的 TensorFlow 或 PyTorch 经验。</p>
+        </div>
+
+        <!-- Compensation -->
+        <div class="compensation">
+            <h2>Compensation / 薪酬</h2>
+            <p>Internship starts at 60 CNY per hour - 200 CNY per hour, or 15 USD per hour to 40 USD per hour. Full-time job starts at 70k USD per year in the US and 100k CNY in China. / 实习生起薪为每小时 60 元人民币 - 200 元人民币，或每小时 15 美元至 40 美元。全职工作在美国的起薪为每年 70,000 美元，在中国为 100,000 元人民币。</p>
+        </div>
+
+        <!-- Application Instructions -->
+        <div class="apply-instructions">
+            <h2>How to Apply / 如何申请</h2>
+            <p>To apply, please send an email to <a href="mailto:hr@yuantsy.com">hr@yuantsy.com</a> with your resume, a cover letter, and the position you are applying for in the subject line. Use the following format for your email subject: 'Application for [Position Title] - [Your Full Name]'. / 申请请发送电子邮件至 <a href="mailto:hr@yuantsy.com">hr@yuantsy.com</a>，附上您的简历、求职信以及您申请的职位名称。请使用以下电子邮件主题格式：‘申请 [职位名称] - [您的全名]’。</p>
+        </div>
+    </div>
+
+    <footer>
+        Yuantsy &copy; 2024 | All Rights Reserved / Yuantsy &copy; 2024 | 版权所有
+    </footer>
+
+    <script>
+        document.querySelectorAll('.toggle').forEach(function (element) {
+            element.onclick = function () {
+                var content = this.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            };
+        });
+    </script>
+</body>
+</html>
